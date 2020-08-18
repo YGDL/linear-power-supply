@@ -1,4 +1,4 @@
-[Design]
+﻿[Design]
 Version=1.0
 HierarchyMode=0
 ChannelRoomNamingStyle=0
@@ -38,7 +38,24 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=..\..\..\ԭ��ͼ��\ԭ��ͼ��.SchLib
+DocumentPath=..\..\..\PCB库\常用库\电阻贴片.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=FRUPPQSP
+
+[Document2]
+DocumentPath=..\..\..\原理图库\原理图库.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -54,48 +71,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LWRHGNMB
 
-[Document2]
-DocumentPath=F:\����\ADԪ����\Ԫ����\Ԫ����\��άPCB��װ��\����.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=UHHYYYDN
-
 [Document3]
-DocumentPath=..\..\..\PCB��\оƬ��װ.PcbLib
+DocumentPath=2020年电赛校赛功率板.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=VWHGYYBA
-
-[Document4]
-DocumentPath=2020�����У�����ʰ�.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -105,14 +88,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JTQSGETX
 
-[Document5]
-DocumentPath=2020�����У����Դ��.SchDoc
+[Document4]
+DocumentPath=2020年电赛校赛电源板.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -122,25 +105,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LLMHJCPJ
 
-[Document6]
-DocumentPath=2020�����У����������׼��.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=OMJSZEIF
-
-[Document7]
-DocumentPath=2020�����У��.PcbDoc
+[Document5]
+DocumentPath=2020年电赛校赛 V1.0.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -156,8 +122,25 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FFUWBNUQ
 
-[Document8]
-DocumentPath=ģ����ư�.PcbDoc
+[Document6]
+DocumentPath=2020年电赛校赛测量、基准板.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=2
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=OMJSZEIF
+
+[Document7]
+DocumentPath=..\..\..\PCB库\常用库\芯片封装.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -171,10 +154,27 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=PESCBTXV
+DocumentUniqueId=VWHGYYBA
+
+[Document8]
+DocumentPath=..\..\..\PCB库\不常用库\排针-排母.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HHGMNDRR
 
 [Document9]
-DocumentPath=���ʰ�.PcbDoc
+DocumentPath=..\..\..\PCB库\不常用库\M3铜柱.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -188,26 +188,190 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=GDNJDMFL
+DocumentUniqueId=TRSIBYIQ
+
+[Document10]
+DocumentPath=..\..\..\PCB库\常用库\电容.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UHHYYYDN
+
+[Document11]
+DocumentPath=2020年电赛校赛接口板.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=3
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SBXNYVRO
+
+[Document12]
+DocumentPath=电赛校赛 V2.0.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SUIGDRNT
+
+[Document13]
+DocumentPath=2020年电赛校赛数字板.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=4
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SATZDWMO
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for 2020�����У��\Net Status - 2020�����У��.html
+DocumentPath=Project Outputs for 2020年电赛校赛\Design Rule Check - 电赛校赛 V2.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for 2020�����У��\ģ����ư�.EXTREP
+DocumentPath=Project Outputs for 2020年电赛校赛\Net Status - 2020年电赛校赛.html
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for 2020�����У��\ģ����ư�.GTL
+DocumentPath=Project Outputs for 2020年电赛校赛\模拟控制板.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for 2020�����У��\ģ����ư�.REP
+DocumentPath=Project Outputs for 2020年电赛校赛\模拟控制板.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for 2020�����У��\ģ����ư�.RUL
+DocumentPath=Project Outputs for 2020年电赛校赛\模拟控制板.REP
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for 2020年电赛校赛\模拟控制板.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for 2020年电赛校赛\电赛校赛 V2.0-RoundHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for 2020年电赛校赛\电赛校赛 V2.0-SlotHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for 2020年电赛校赛\电赛校赛 V2.0.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for 2020年电赛校赛\电赛校赛 V2.0.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for 2020年电赛校赛\电赛校赛 V2.0.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for 2020年电赛校赛\电赛校赛 V2.0.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for 2020年电赛校赛\电赛校赛 V2.0.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for 2020年电赛校赛\电赛校赛 V2.0.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for 2020年电赛校赛\电赛校赛 V2.0.GD1
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for 2020年电赛校赛\电赛校赛 V2.0.GG1
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for 2020年电赛校赛\电赛校赛 V2.0.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for 2020年电赛校赛\电赛校赛 V2.0.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for 2020年电赛校赛\电赛校赛 V2.0.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for 2020年电赛校赛\电赛校赛 V2.0.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for 2020年电赛校赛\电赛校赛 V2.0.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for 2020年电赛校赛\电赛校赛 V2.0.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for 2020年电赛校赛\电赛校赛 V2.0.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for 2020年电赛校赛\电赛校赛 V2.0.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for 2020年电赛校赛\电赛校赛 V2.0.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for 2020年电赛校赛\电赛校赛 V2.0.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for 2020年电赛校赛\电赛校赛 V2.0.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for 2020年电赛校赛\电赛校赛 V2.0.REP
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for 2020年电赛校赛\电赛校赛 V2.0.RUL
 DItemRevisionGUID=
 
 [Configuration1]
@@ -368,7 +532,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother HL-2260 Printer
+TargetPrinter=OneNote for Windows 10
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -474,7 +638,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=OneNote for Windows 10
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
@@ -525,6 +689,10 @@ OutputName8=NC Drill Files
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
+Configuration8_Name1=ForceUpdateSettings
+Configuration8_Item1=False
+Configuration8_Name2=OutputConfigurationParameter1
+Configuration8_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes
 OutputType9=IPC2581
 OutputName9=IPC-2581 Files
 OutputDocumentPath9=
@@ -549,7 +717,7 @@ OutputDefault12=0
 Configuration12_Name1=ForceUpdateSettings
 Configuration12_Item1=False
 Configuration12_Name2=OutputConfigurationParameter1
-Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16777217~1|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16777217~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
+Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16908289~1|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=True|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973832~1,16973835~1|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1,16908301~1,16908303~1,16973837~1,16973848~1,16973849~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=True|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
 
 [OutputGroup6]
 Name=Report Outputs
@@ -1232,12 +1400,10 @@ L17=WNNNNNNNWNNNWWWWN
 
 [Annotate]
 SortOrder=3
-SortLocation=0
+SortLocation=1
 ReplaceSubparts=0
 MatchParameter1=Comment
 MatchStrictly1=1
-MatchParameter2=Library Reference
-MatchStrictly2=1
 PhysicalNamingFormat=$Component_$RoomName
 GlobalIndexSortOrder=3
 GlobalIndexSortLocation=0
@@ -1287,79 +1453,79 @@ ComponentSymbolReference4=Header 4
 ComponentUpdate4=0
 ComponentIsDeviceSheet4=0
 ComponentLibIdentifierKind5=Library Name And Type
-ComponentLibraryIdentifier5=ԭ��ͼ��.SchLib
+ComponentLibraryIdentifier5=原理图库.SchLib
 ComponentDesignItemID5=100uF
 ComponentSymbolReference5=100uF
 ComponentUpdate5=1
 ComponentIsDeviceSheet5=0
 ComponentLibIdentifierKind6=Library Name And Type
-ComponentLibraryIdentifier6=ԭ��ͼ��.SchLib
+ComponentLibraryIdentifier6=原理图库.SchLib
 ComponentDesignItemID6=104
 ComponentSymbolReference6=104
 ComponentUpdate6=0
 ComponentIsDeviceSheet6=0
 ComponentLibIdentifierKind7=Library Name And Type
-ComponentLibraryIdentifier7=ԭ��ͼ��.SchLib
-ComponentDesignItemID7=10k��
-ComponentSymbolReference7=10k��
+ComponentLibraryIdentifier7=原理图库.SchLib
+ComponentDesignItemID7=10kΩ
+ComponentSymbolReference7=10kΩ
 ComponentUpdate7=0
 ComponentIsDeviceSheet7=0
 ComponentLibIdentifierKind8=Library Name And Type
-ComponentLibraryIdentifier8=ԭ��ͼ��.SchLib
+ComponentLibraryIdentifier8=原理图库.SchLib
 ComponentDesignItemID8=470mH
 ComponentSymbolReference8=470mH
 ComponentUpdate8=0
 ComponentIsDeviceSheet8=0
 ComponentLibIdentifierKind9=Library Name And Type
-ComponentLibraryIdentifier9=ԭ��ͼ��.SchLib
+ComponentLibraryIdentifier9=原理图库.SchLib
 ComponentDesignItemID9=790?
 ComponentSymbolReference9=790?
 ComponentUpdate9=0
 ComponentIsDeviceSheet9=0
 ComponentLibIdentifierKind10=Library Name And Type
-ComponentLibraryIdentifier10=ԭ��ͼ��.SchLib
+ComponentLibraryIdentifier10=原理图库.SchLib
 ComponentDesignItemID10=ADR4533
 ComponentSymbolReference10=ADR4533
 ComponentUpdate10=0
 ComponentIsDeviceSheet10=0
 ComponentLibIdentifierKind11=Library Name And Type
-ComponentLibraryIdentifier11=ԭ��ͼ��.SchLib
+ComponentLibraryIdentifier11=原理图库.SchLib
 ComponentDesignItemID11=AMS1117-3.3
 ComponentSymbolReference11=AMS1117-3.3
 ComponentUpdate11=0
 ComponentIsDeviceSheet11=0
 ComponentLibIdentifierKind12=Library Name And Type
-ComponentLibraryIdentifier12=ԭ��ͼ��.SchLib
+ComponentLibraryIdentifier12=原理图库.SchLib
 ComponentDesignItemID12=Diode
 ComponentSymbolReference12=Diode
 ComponentUpdate12=0
 ComponentIsDeviceSheet12=0
 ComponentLibIdentifierKind13=Library Name And Type
-ComponentLibraryIdentifier13=ԭ��ͼ��.SchLib
+ComponentLibraryIdentifier13=原理图库.SchLib
 ComponentDesignItemID13=HRS1H-S-DC 6V
 ComponentSymbolReference13=HRS1H-S-DC 6V
 ComponentUpdate13=0
 ComponentIsDeviceSheet13=0
 ComponentLibIdentifierKind14=Library Name And Type
-ComponentLibraryIdentifier14=ԭ��ͼ��.SchLib
+ComponentLibraryIdentifier14=原理图库.SchLib
 ComponentDesignItemID14=NPN!
 ComponentSymbolReference14=NPN!
 ComponentUpdate14=1
 ComponentIsDeviceSheet14=0
 ComponentLibIdentifierKind15=Library Name And Type
-ComponentLibraryIdentifier15=ԭ��ͼ��.SchLib
+ComponentLibraryIdentifier15=原理图库.SchLib
 ComponentDesignItemID15=NPN
 ComponentSymbolReference15=NPN
 ComponentUpdate15=0
 ComponentIsDeviceSheet15=0
 ComponentLibIdentifierKind16=Library Name And Type
-ComponentLibraryIdentifier16=ԭ��ͼ��.SchLib
+ComponentLibraryIdentifier16=原理图库.SchLib
 ComponentDesignItemID16=OP07CP
 ComponentSymbolReference16=OP07CP
 ComponentUpdate16=1
 ComponentIsDeviceSheet16=0
 ComponentLibIdentifierKind17=Library Name And Type
-ComponentLibraryIdentifier17=ԭ��ͼ��.SchLib
+ComponentLibraryIdentifier17=原理图库.SchLib
 ComponentDesignItemID17=PNP
 ComponentSymbolReference17=PNP
 ComponentUpdate17=1
@@ -1396,7 +1562,7 @@ ParameterUpdate7=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=100m����ͭ
+ModelName0=100mΩ康铜
 ModelUpdate0=1
 ModelType1=PCBLIB
 ModelName1=C0805
@@ -1429,7 +1595,7 @@ ModelType10=PCBLIB
 ModelName10=R0805
 ModelUpdate10=1
 ModelType11=PCBLIB
-ModelName11=RES-1W(��ʽ)
+ModelName11=RES-1W(立式)
 ModelUpdate11=1
 ModelType12=PCBLIB
 ModelName12=SMA(DO-214AC)
@@ -1438,7 +1604,7 @@ ModelType13=PCBLIB
 ModelName13=SMC(DO-214AB)
 ModelUpdate13=1
 ModelType14=PCBLIB
-ModelName14=SOP-8(���3.8mm)
+ModelName14=SOP-8(体宽3.8mm)
 ModelUpdate14=1
 ModelType15=PCBLIB
 ModelName15=SOT-23
